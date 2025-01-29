@@ -1,0 +1,32 @@
+.battleContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .battleInfo {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+  }
+  
+  .player, .enemy {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .battleActions button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .battleActions button:hover {
+    background-color: darkred;
+  }

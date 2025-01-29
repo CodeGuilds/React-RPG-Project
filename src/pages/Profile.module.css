@@ -1,0 +1,28 @@
+.profileContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profileTabs {
+    margin: 15px 0;
+  }
+  
+  .profileTabs button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    background-color: lightgray;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .profileTabs button.active {
+    background-color: darkgray;
+    font-weight: bold;
+  }
+  
+  .profileContent {
+    background-color: #eee;
+    padding: 15px;
+    border-radius: 10px;
+  }
